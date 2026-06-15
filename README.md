@@ -47,7 +47,7 @@ A structured data table managing entity records, addresses, and full CRUD routin
 ### Centralized API Gateway Documentation (Swagger UI)
 The reverse proxy API Gateway (running on port 5000) automatically aggregates individual OpenAPI/Swagger definitions from all isolated microservices into a single, unified control dashboard.
 
-![API Gateway Swagger](screenshots/microservicii-swagger.png)
+![API Gateway Swagger](screenshots/microservicii_swagger.png)
 
 ##  Quick Start (How to Run)
 
