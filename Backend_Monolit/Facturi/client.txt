@@ -1,0 +1,1 @@
+[{"IdClient":1,"NumeClient":"Zlate Giani","Adresa":"Strada Galaxiei 3"},{"IdClient":2,"NumeClient":"Maria Ionescu","Adresa":"Bulevardul Unirii 45, Cluj-Napoca"},{"IdClient":3,"NumeClient":"Andrei Vasile","Adresa":"Calea Victoriei 78, Timisoara"},{"IdClient":4,"NumeClient":"Miruna Tudor","Adresa":"Strada Galaxiei 3"}]

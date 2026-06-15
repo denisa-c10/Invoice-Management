@@ -1,0 +1,40 @@
+services:
+  # 1. API Gateway-ul 
+  api-gateway:
+    build:
+      context: ./API_Gateaway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  # 2. Microserviciul de Clienți
+  client-api:
+    build:
+      context: ./ClientService
+      dockerfile: Dockerfile
+    ports:
+      - "5117:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  # 3. Microserviciul de Facturi
+  factura-api:
+    build:
+      context: ./FacturaService
+      dockerfile: Dockerfile
+    ports:
+      - "5116:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  # 4. Microserviciul de Produse
+  produs-api:
+    build:
+      context: ./ProdusService
+      dockerfile: Dockerfile
+    ports:
+      - "5118:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

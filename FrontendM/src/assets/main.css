@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+/* Asta rezolvă problema cu lățimea! */
+#app {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
