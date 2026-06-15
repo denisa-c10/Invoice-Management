@@ -37,6 +37,7 @@ An administrative layout showing transaction statuses, active filters, and inlin
 
 ### Client-Side PDF Generation Engine
 Optimized billing module that dynamically renders print-ready A4 document layouts with responsive data injection and status stamping.
+
 ![Invoice PDF Preview](screenshots/pdf-preview.png)
 
 ### Client Directory Management
