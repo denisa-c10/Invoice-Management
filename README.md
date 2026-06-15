@@ -59,7 +59,7 @@ You can run either the Monolithic version or the Microservices version to explor
 cd Backend_Monolit/Facturi
 dotnet run
 ```
-**2. Start the Frontend (Vue.js):
+**2. Start the Frontend (Vue.js):**
 Open a new terminal window:
 ```bash
 cd FrontendM
@@ -67,7 +67,7 @@ npm install
 npm run dev
 ```
 
-Option B: Run the Microservices (Docker)
+### Option B: Run the Microservices (Docker)
 To test the distributed architecture and API Gateway, ensure you have Docker installed.
 Clone the repository:
 ```bash
