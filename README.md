@@ -25,6 +25,24 @@ This repository is structured to showcase both architectural patterns:
    - `ProdusService` (Isolated domain)
    - `FacturaService` (Isolated domain)
 
+## Application Preview
+
+### Main Dashboard & Live WebSockets Control Room
+Features high-level business metrics and real-time event testing zones using both SignalR and Native WebSockets implementations.
+![Main Dashboard](screenshots/dashboard.png)
+
+### Invoice Lifecycle & Status Management
+An administrative layout showing transaction statuses, active filters, and inline actions for invoicing operations.
+![Invoice Management](screenshots/invoices.png)
+
+### Client-Side PDF Generation Engine
+Optimized billing module that dynamically renders print-ready A4 document layouts with responsive data injection and status stamping.
+![Invoice PDF Preview](screenshots/pdf-preview.png)
+
+### Client Directory Management
+A structured data table managing entity records, addresses, and full CRUD routing operations.
+![Client Directory](screenshots/clients.png)
+
 ##  Quick Start (How to Run)
 
 You can run either the Monolithic version or the Microservices version to explore the differences in architecture.
